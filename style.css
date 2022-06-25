@@ -1,0 +1,45 @@
+.container-1{
+    padding-top: 10px;
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-1{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 80px;
+    border: transparent;
+    font-weight: bold;
+    box-shadow: 0 0 5px 10px rgba(38, 0, 255, 0.062);
+}
+
+.btn-2{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border-radius: 80px;
+    border: transparent;
+    font-weight: bold;
+    box-shadow: 0 0 5px 10px rgba(255, 0, 0, 0.075);
+}
+
+.btn-1, .btn-2{
+    cursor: pointer;
+}
+.inner-container{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inner-container div{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
